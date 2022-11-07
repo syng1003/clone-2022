@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to kokoa Clone</title>
+    <title>Friends - kokoa Clone</title>
     <script src="js/time.js"></script>
 </head>
 <body>
@@ -14,8 +14,8 @@
             <span>No Service</span>
             <i class="fas fa-wifi"></i>         
         </div>
-        <div class="status-bar__column">
-            <span>18:43</span>
+        <div id="current_time" class="status-bar__column">
+            <h1 id="clock"></h1>
         </div>
         <div class="status-bar__column">
             <span>110%</span>
@@ -24,19 +24,14 @@
         </div>
     </div>
 
-    <header class="welcome-header">
-        <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
-        <p class="welcome-header__text">
-            If you have a kokoa Account, log in with your email or phone number.
-        </p>
-    </header>
-
-    <form action="friends.html" method="get" id="login-form">
-        <input name="username" type="text" placeholder="Email or phone number"/>
-        <input type="password" placeholder="password" />
-        <input type="submit" value="Log in" />
-        <a href="#">Find Kokoa Account or Password</a>
-    </form>
+    <nav>
+        <ul>
+            <li><a href="#"><i class="fa-solid fa-user fa-lg"></i></a></li>
+            <li><a href="#">Chan</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Find</a></li>
+        </ul>
+    </nav>
 
     <script 
     src="https://kit.fontawesome.com/6478f529f2.js" 
